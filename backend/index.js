@@ -9,7 +9,8 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://expense-tracker-frontend-five-sable.vercel.app/", // exact frontend URL
+    origin:
+      "https://expense-tracker-front-git-9beba8-akash-kumars-projects-37bd49a1.vercel.app/", // exact frontend URL
     credentials: true,
   })
 );
